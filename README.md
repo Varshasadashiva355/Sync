@@ -93,6 +93,10 @@ data/seed.json        Demo dataset
 
 The app is a single Node process with no runtime dependencies.
 
+### Cloudflare static preview
+
+`npm run build` copies only the public frontend, shared matcher, and seed snapshot into `dist`. Deploy it with `npx wrangler deploy` using `wrangler.jsonc`. This serves the read-only preview; sign-in, SQLite persistence, invitations, and realtime updates still require the Node backend.
+
 ### Docker
 
 ```bash
