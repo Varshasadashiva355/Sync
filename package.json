@@ -1,0 +1,15 @@
+{
+  "name": "teamforge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Realtime capstone team-formation workspace for Saptagiri NPS University.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}

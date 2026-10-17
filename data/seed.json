@@ -1,0 +1,570 @@
+{
+  "generatedAt": "2026-10-17T09:00:00.000Z",
+  "defaultStudentId": "s-ananya",
+  "skills": [
+    { "id": "sk-js", "name": "JavaScript", "category": "Engineering" },
+    { "id": "sk-react", "name": "React", "category": "Engineering" },
+    { "id": "sk-node", "name": "Node.js", "category": "Engineering" },
+    { "id": "sk-python", "name": "Python", "category": "Data & AI" },
+    { "id": "sk-sql", "name": "SQL", "category": "Data & AI" },
+    { "id": "sk-mongo", "name": "MongoDB", "category": "Engineering" },
+    { "id": "sk-java", "name": "Java", "category": "Engineering" },
+    { "id": "sk-spring", "name": "Spring Boot", "category": "Engineering" },
+    { "id": "sk-uiux", "name": "UI/UX Design", "category": "Design" },
+    { "id": "sk-figma", "name": "Figma", "category": "Design" },
+    { "id": "sk-ml", "name": "Machine Learning", "category": "Data & AI" },
+    { "id": "sk-dataviz", "name": "Data Visualization", "category": "Data & AI" },
+    { "id": "sk-devops", "name": "DevOps", "category": "Platform" },
+    { "id": "sk-cloud", "name": "Cloud", "category": "Platform" },
+    { "id": "sk-testing", "name": "Testing", "category": "Quality" },
+    { "id": "sk-writing", "name": "Technical Writing", "category": "Communication" },
+    { "id": "sk-product", "name": "Product Management", "category": "Product" },
+    { "id": "sk-mobile", "name": "Flutter", "category": "Mobile" },
+    { "id": "sk-research", "name": "Research", "category": "Communication" },
+    { "id": "sk-presentation", "name": "Presentation", "category": "Communication" }
+  ],
+  "students": [
+    {
+      "id": "s-ananya",
+      "name": "Ananya Rao",
+      "email": "ananya.rao@saptagirinps.edu",
+      "year": 3,
+      "program": "B.Tech CSE",
+      "preferredRole": "Frontend Developer",
+      "experience": 3,
+      "availability": "available",
+      "bio": "Front-end engineer who likes turning rough capstone ideas into interfaces people can actually use. Led the web team for last year's campus fest.",
+      "avatarTone": "navy",
+      "skills": [
+        { "skillId": "sk-react", "level": 4 },
+        { "skillId": "sk-js", "level": 5 },
+        { "skillId": "sk-uiux", "level": 2 },
+        { "skillId": "sk-figma", "level": 3 },
+        { "skillId": "sk-node", "level": 2 },
+        { "skillId": "sk-testing", "level": 2 }
+      ]
+    },
+    {
+      "id": "s-rohan",
+      "name": "Rohan Mehta",
+      "email": "rohan.mehta@saptagirinps.edu",
+      "year": 3,
+      "program": "B.Tech CSE",
+      "preferredRole": "Backend Developer",
+      "experience": 2,
+      "availability": "available",
+      "bio": "Backend developer focused on clean APIs and relational data modelling. Comfortable owning deployment and database work.",
+      "avatarTone": "teal",
+      "skills": [
+        { "skillId": "sk-node", "level": 4 },
+        { "skillId": "sk-sql", "level": 3 },
+        { "skillId": "sk-testing", "level": 2 },
+        { "skillId": "sk-python", "level": 2 },
+        { "skillId": "sk-react", "level": 2 },
+        { "skillId": "sk-js", "level": 2 }
+      ]
+    },
+    {
+      "id": "s-meera",
+      "name": "Meera Iyer",
+      "email": "meera.iyer@saptagirinps.edu",
+      "year": 2,
+      "program": "B.Des Interaction Design",
+      "preferredRole": "UI/UX Designer",
+      "experience": 2,
+      "availability": "available",
+      "bio": "Interaction design student who prototypes in Figma first and codes enough React to keep the handoff honest.",
+      "avatarTone": "gold",
+      "skills": [
+        { "skillId": "sk-figma", "level": 5 },
+        { "skillId": "sk-uiux", "level": 4 },
+        { "skillId": "sk-react", "level": 2 },
+        { "skillId": "sk-testing", "level": 2 },
+        { "skillId": "sk-writing", "level": 3 },
+        { "skillId": "sk-js", "level": 2 }
+      ]
+    },
+    {
+      "id": "s-kabir",
+      "name": "Kabir Shah",
+      "email": "kabir.shah@saptagirinps.edu",
+      "year": 4,
+      "program": "B.Tech IT",
+      "preferredRole": "QA Engineer",
+      "experience": 3,
+      "availability": "available",
+      "bio": "Quality engineer who writes test plans before the first sprint and enjoys breaking edge cases others miss.",
+      "avatarTone": "plum",
+      "skills": [
+        { "skillId": "sk-testing", "level": 4 },
+        { "skillId": "sk-sql", "level": 3 },
+        { "skillId": "sk-node", "level": 2 },
+        { "skillId": "sk-python", "level": 2 },
+        { "skillId": "sk-writing", "level": 3 },
+        { "skillId": "sk-js", "level": 2 }
+      ]
+    },
+    {
+      "id": "s-arjun",
+      "name": "Arjun Nair",
+      "email": "arjun.nair@saptagirinps.edu",
+      "year": 4,
+      "program": "B.Tech CSE",
+      "preferredRole": "Backend Developer",
+      "experience": 3,
+      "availability": "limited",
+      "bio": "Full-stack leaning backend developer. Spends most evenings on competitive programming and cloud side projects.",
+      "avatarTone": "slate",
+      "skills": [
+        { "skillId": "sk-node", "level": 5 },
+        { "skillId": "sk-react", "level": 4 },
+        { "skillId": "sk-sql", "level": 4 },
+        { "skillId": "sk-cloud", "level": 3 },
+        { "skillId": "sk-testing", "level": 3 },
+        { "skillId": "sk-js", "level": 3 }
+      ]
+    },
+    {
+      "id": "s-sana",
+      "name": "Sana Sheikh",
+      "email": "sana.sheikh@saptagirinps.edu",
+      "year": 2,
+      "program": "B.Des Interaction Design",
+      "preferredRole": "UI/UX Designer",
+      "experience": 1,
+      "availability": "available",
+      "bio": "Design student with a visual-first approach to dashboards and mobile flows. Strong presenter and workshop facilitator.",
+      "avatarTone": "rust",
+      "skills": [
+        { "skillId": "sk-figma", "level": 4 },
+        { "skillId": "sk-uiux", "level": 3 },
+        { "skillId": "sk-react", "level": 3 },
+        { "skillId": "sk-presentation", "level": 4 },
+        { "skillId": "sk-js", "level": 3 }
+      ]
+    },
+    {
+      "id": "s-ishaan",
+      "name": "Ishaan Verma",
+      "email": "ishaan.verma@saptagirinps.edu",
+      "year": 4,
+      "program": "B.Tech AI & DS",
+      "preferredRole": "ML Engineer",
+      "experience": 3,
+      "availability": "available",
+      "bio": "Machine learning student working on computer vision and campus data projects. Cares about models that survive real users.",
+      "avatarTone": "forest",
+      "skills": [
+        { "skillId": "sk-python", "level": 5 },
+        { "skillId": "sk-ml", "level": 4 },
+        { "skillId": "sk-sql", "level": 3 },
+        { "skillId": "sk-dataviz", "level": 3 },
+        { "skillId": "sk-node", "level": 2 },
+        { "skillId": "sk-research", "level": 3 }
+      ]
+    },
+    {
+      "id": "s-neha",
+      "name": "Neha Kapoor",
+      "email": "neha.kapoor@saptagirinps.edu",
+      "year": 4,
+      "program": "BBA Tech",
+      "preferredRole": "Product Manager",
+      "experience": 3,
+      "availability": "busy",
+      "bio": "Product manager for two campus ventures. Usually the person who turns an open-ended brief into a scoped release.",
+      "avatarTone": "indigo",
+      "skills": [
+        { "skillId": "sk-product", "level": 5 },
+        { "skillId": "sk-presentation", "level": 4 },
+        { "skillId": "sk-uiux", "level": 3 },
+        { "skillId": "sk-research", "level": 4 },
+        { "skillId": "sk-sql", "level": 2 },
+        { "skillId": "sk-writing", "level": 3 }
+      ]
+    },
+    {
+      "id": "s-dev",
+      "name": "Dev Patel",
+      "email": "dev.patel@saptagirinps.edu",
+      "year": 3,
+      "program": "B.Tech IT",
+      "preferredRole": "Backend Developer",
+      "experience": 2,
+      "availability": "available",
+      "bio": "Backend developer who prefers document databases for fast-moving projects and writes API docs alongside the code.",
+      "avatarTone": "teal",
+      "skills": [
+        { "skillId": "sk-node", "level": 4 },
+        { "skillId": "sk-mongo", "level": 4 },
+        { "skillId": "sk-sql", "level": 3 },
+        { "skillId": "sk-cloud", "level": 2 },
+        { "skillId": "sk-js", "level": 3 }
+      ]
+    },
+    {
+      "id": "s-priya",
+      "name": "Priya Menon",
+      "email": "priya.menon@saptagirinps.edu",
+      "year": 3,
+      "program": "B.Tech AI & DS",
+      "preferredRole": "Data Scientist",
+      "experience": 2,
+      "availability": "available",
+      "bio": "Data scientist who enjoys exploratory analysis and turning messy campus datasets into decisions people can read.",
+      "avatarTone": "plum",
+      "skills": [
+        { "skillId": "sk-python", "level": 4 },
+        { "skillId": "sk-dataviz", "level": 4 },
+        { "skillId": "sk-sql", "level": 4 },
+        { "skillId": "sk-ml", "level": 2 },
+        { "skillId": "sk-research", "level": 3 }
+      ]
+    },
+    {
+      "id": "s-aditya",
+      "name": "Aditya Kulkarni",
+      "email": "aditya.kulkarni@saptagirinps.edu",
+      "year": 4,
+      "program": "B.Tech CSE",
+      "preferredRole": "DevOps Engineer",
+      "experience": 3,
+      "availability": "limited",
+      "bio": "Platform engineer who automates everything twice. Keeps student projects shipping with sensible CI and observability.",
+      "avatarTone": "slate",
+      "skills": [
+        { "skillId": "sk-cloud", "level": 5 },
+        { "skillId": "sk-devops", "level": 4 },
+        { "skillId": "sk-node", "level": 3 },
+        { "skillId": "sk-sql", "level": 3 },
+        { "skillId": "sk-testing", "level": 2 }
+      ]
+    },
+    {
+      "id": "s-tara",
+      "name": "Tara Joshi",
+      "email": "tara.joshi@saptagirinps.edu",
+      "year": 2,
+      "program": "B.Tech CSE",
+      "preferredRole": "Frontend Developer",
+      "experience": 1,
+      "availability": "available",
+      "bio": "Frontend developer who joined the coding club last year and now builds most of its event microsites.",
+      "avatarTone": "rust",
+      "skills": [
+        { "skillId": "sk-react", "level": 3 },
+        { "skillId": "sk-js", "level": 4 },
+        { "skillId": "sk-uiux", "level": 2 },
+        { "skillId": "sk-figma", "level": 2 },
+        { "skillId": "sk-testing", "level": 2 }
+      ]
+    },
+    {
+      "id": "s-farhan",
+      "name": "Farhan Ali",
+      "email": "farhan.ali@saptagirinps.edu",
+      "year": 3,
+      "program": "B.Tech IT",
+      "preferredRole": "Mobile Developer",
+      "experience": 2,
+      "availability": "available",
+      "bio": "Mobile developer building Flutter apps for local businesses. Happy to adapt native flows into a web team.",
+      "avatarTone": "indigo",
+      "skills": [
+        { "skillId": "sk-mobile", "level": 4 },
+        { "skillId": "sk-js", "level": 3 },
+        { "skillId": "sk-react", "level": 2 },
+        { "skillId": "sk-uiux", "level": 3 },
+        { "skillId": "sk-testing", "level": 2 }
+      ]
+    },
+    {
+      "id": "s-riya",
+      "name": "Riya Desai",
+      "email": "riya.desai@saptagirinps.edu",
+      "year": 2,
+      "program": "BA English & Tech",
+      "preferredRole": "Technical Writer",
+      "experience": 1,
+      "availability": "available",
+      "bio": "Technical writer and research assistant. Turns sprint notes and interviews into documentation the whole team reads.",
+      "avatarTone": "gold",
+      "skills": [
+        { "skillId": "sk-writing", "level": 5 },
+        { "skillId": "sk-research", "level": 4 },
+        { "skillId": "sk-presentation", "level": 3 },
+        { "skillId": "sk-uiux", "level": 2 },
+        { "skillId": "sk-product", "level": 2 }
+      ]
+    },
+    {
+      "id": "s-vihaan",
+      "name": "Vihaan Reddy",
+      "email": "vihaan.reddy@saptagirinps.edu",
+      "year": 3,
+      "program": "B.Tech CSE",
+      "preferredRole": "QA Engineer",
+      "experience": 2,
+      "availability": "limited",
+      "bio": "QA and automation student who likes building test harnesses almost as much as finding the bug.",
+      "avatarTone": "forest",
+      "skills": [
+        { "skillId": "sk-testing", "level": 3 },
+        { "skillId": "sk-sql", "level": 2 },
+        { "skillId": "sk-python", "level": 3 },
+        { "skillId": "sk-node", "level": 2 },
+        { "skillId": "sk-writing", "level": 2 }
+      ]
+    },
+    {
+      "id": "s-anika",
+      "name": "Anika Bose",
+      "email": "anika.bose@saptagirinps.edu",
+      "year": 3,
+      "program": "B.Tech CSE",
+      "preferredRole": "Backend Developer",
+      "experience": 2,
+      "availability": "available",
+      "bio": "Java and Spring Boot developer with a soft spot for well-tested service layers and readable SQL.",
+      "avatarTone": "navy",
+      "skills": [
+        { "skillId": "sk-java", "level": 4 },
+        { "skillId": "sk-spring", "level": 3 },
+        { "skillId": "sk-sql", "level": 4 },
+        { "skillId": "sk-testing", "level": 3 },
+        { "skillId": "sk-cloud", "level": 2 }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "p-campus",
+      "title": "Campus Event Companion",
+      "summary": "A single place for students to discover fests, workshops and club events, with personalised schedules and live venue updates.",
+      "ownerId": "s-ananya",
+      "teamSize": 4,
+      "deadline": "2026-11-20",
+      "createdAt": "2026-09-28T10:00:00.000Z",
+      "requirements": [
+        { "skillId": "sk-react", "weight": 5, "minLevel": 4 },
+        { "skillId": "sk-node", "weight": 4, "minLevel": 3 },
+        { "skillId": "sk-sql", "weight": 3, "minLevel": 3 },
+        { "skillId": "sk-uiux", "weight": 5, "minLevel": 4 },
+        { "skillId": "sk-testing", "weight": 4, "minLevel": 3 },
+        { "skillId": "sk-figma", "weight": 3, "minLevel": 3 }
+      ],
+      "roles": [
+        { "role": "Frontend Developer", "slots": 1 },
+        { "role": "Backend Developer", "slots": 1 },
+        { "role": "UI/UX Designer", "slots": 1 },
+        { "role": "QA Engineer", "slots": 1 }
+      ],
+      "teamId": "t-campus"
+    },
+    {
+      "id": "p-library",
+      "title": "Library Occupancy Predictor",
+      "summary": "Predict seat availability across the central library using entry logs, timetables and historical occupancy patterns.",
+      "ownerId": "s-ishaan",
+      "teamSize": 3,
+      "deadline": "2026-11-28",
+      "createdAt": "2026-10-02T11:30:00.000Z",
+      "requirements": [
+        { "skillId": "sk-python", "weight": 5, "minLevel": 4 },
+        { "skillId": "sk-ml", "weight": 5, "minLevel": 4 },
+        { "skillId": "sk-sql", "weight": 3, "minLevel": 3 },
+        { "skillId": "sk-dataviz", "weight": 4, "minLevel": 3 },
+        { "skillId": "sk-uiux", "weight": 3, "minLevel": 3 }
+      ],
+      "roles": [
+        { "role": "ML Engineer", "slots": 1 },
+        { "role": "Data Scientist", "slots": 1 },
+        { "role": "UI/UX Designer", "slots": 1 }
+      ],
+      "teamId": "t-library"
+    },
+    {
+      "id": "p-green",
+      "title": "Green Route Planner",
+      "summary": "A campus mobility planner that ranks walking and shuttle routes by carbon saved, time and accessibility.",
+      "ownerId": "s-neha",
+      "teamSize": 4,
+      "deadline": "2026-11-05",
+      "createdAt": "2026-09-12T09:00:00.000Z",
+      "requirements": [
+        { "skillId": "sk-react", "weight": 4, "minLevel": 4 },
+        { "skillId": "sk-node", "weight": 4, "minLevel": 4 },
+        { "skillId": "sk-cloud", "weight": 4, "minLevel": 3 },
+        { "skillId": "sk-devops", "weight": 4, "minLevel": 3 },
+        { "skillId": "sk-uiux", "weight": 3, "minLevel": 3 },
+        { "skillId": "sk-product", "weight": 4, "minLevel": 3 }
+      ],
+      "roles": [
+        { "role": "Frontend Developer", "slots": 1 },
+        { "role": "Backend Developer", "slots": 1 },
+        { "role": "DevOps Engineer", "slots": 1 },
+        { "role": "Product Manager", "slots": 1 }
+      ],
+      "teamId": "t-green"
+    },
+    {
+      "id": "p-alumni",
+      "title": "Alumni Networking Portal",
+      "summary": "A mentor-matching portal that connects current students with alumni by domain, availability and career goals.",
+      "ownerId": "s-dev",
+      "teamSize": 3,
+      "deadline": "2026-12-02",
+      "createdAt": "2026-09-20T14:00:00.000Z",
+      "requirements": [
+        { "skillId": "sk-node", "weight": 4, "minLevel": 4 },
+        { "skillId": "sk-mongo", "weight": 4, "minLevel": 4 },
+        { "skillId": "sk-react", "weight": 3, "minLevel": 3 },
+        { "skillId": "sk-uiux", "weight": 3, "minLevel": 3 },
+        { "skillId": "sk-product", "weight": 3, "minLevel": 3 }
+      ],
+      "roles": [
+        { "role": "Backend Developer", "slots": 1 },
+        { "role": "UI/UX Designer", "slots": 1 },
+        { "role": "Product Manager", "slots": 1 }
+      ],
+      "teamId": "t-alumni"
+    }
+  ],
+  "teams": [
+    {
+      "id": "t-campus",
+      "projectId": "p-campus",
+      "name": "Campus Event Companion",
+      "status": "forming",
+      "createdAt": "2026-09-28T10:05:00.000Z",
+      "lockedAt": null,
+      "members": [
+        { "studentId": "s-ananya", "role": "Frontend Developer", "joinedAt": "2026-09-28T10:05:00.000Z" },
+        { "studentId": "s-rohan", "role": "Backend Developer", "joinedAt": "2026-10-14T09:30:00.000Z" }
+      ]
+    },
+    {
+      "id": "t-library",
+      "projectId": "p-library",
+      "name": "Library Occupancy Predictor",
+      "status": "forming",
+      "createdAt": "2026-10-02T11:35:00.000Z",
+      "lockedAt": null,
+      "members": [
+        { "studentId": "s-ishaan", "role": "ML Engineer", "joinedAt": "2026-10-02T11:35:00.000Z" },
+        { "studentId": "s-priya", "role": "Data Scientist", "joinedAt": "2026-10-13T14:15:00.000Z" }
+      ]
+    },
+    {
+      "id": "t-green",
+      "projectId": "p-green",
+      "name": "Green Route Planner",
+      "status": "locked",
+      "createdAt": "2026-09-12T09:05:00.000Z",
+      "lockedAt": "2026-10-15T11:05:00.000Z",
+      "members": [
+        { "studentId": "s-neha", "role": "Product Manager", "joinedAt": "2026-09-12T09:05:00.000Z" },
+        { "studentId": "s-tara", "role": "Frontend Developer", "joinedAt": "2026-09-18T10:20:00.000Z" },
+        { "studentId": "s-anika", "role": "Backend Developer", "joinedAt": "2026-10-12T10:00:00.000Z" },
+        { "studentId": "s-aditya", "role": "DevOps Engineer", "joinedAt": "2026-09-25T16:40:00.000Z" }
+      ]
+    },
+    {
+      "id": "t-alumni",
+      "projectId": "p-alumni",
+      "name": "Alumni Networking Portal",
+      "status": "complete",
+      "createdAt": "2026-09-20T14:05:00.000Z",
+      "lockedAt": null,
+      "members": [
+        { "studentId": "s-dev", "role": "Backend Developer", "joinedAt": "2026-09-20T14:05:00.000Z" },
+        { "studentId": "s-sana", "role": "UI/UX Designer", "joinedAt": "2026-09-29T12:00:00.000Z" },
+        { "studentId": "s-riya", "role": "Product Manager", "joinedAt": "2026-10-16T16:20:00.000Z" }
+      ]
+    }
+  ],
+  "invitations": [
+    {
+      "id": "inv-meera",
+      "projectId": "p-campus",
+      "teamId": "t-campus",
+      "inviterId": "s-ananya",
+      "inviteeId": "s-meera",
+      "role": "UI/UX Designer",
+      "message": "Your Figma work is exactly the gap in our team. Want to shape the event companion with us?",
+      "status": "pending",
+      "createdAt": "2026-10-17T08:42:00.000Z",
+      "respondedAt": null
+    },
+    {
+      "id": "inv-ananya",
+      "projectId": "p-library",
+      "teamId": "t-library",
+      "inviterId": "s-ishaan",
+      "inviteeId": "s-ananya",
+      "role": "UI/UX Designer",
+      "message": "We have the model and the data. We need someone who can make the occupancy forecast usable at a glance.",
+      "status": "pending",
+      "createdAt": "2026-10-17T08:10:00.000Z",
+      "respondedAt": null
+    }
+  ],
+  "activity": [
+    {
+      "id": "act-7",
+      "projectId": "p-campus",
+      "actorId": "s-ananya",
+      "type": "invite_sent",
+      "message": "Ananya invited Meera Iyer to Campus Event Companion as UI/UX Designer",
+      "createdAt": "2026-10-17T08:42:00.000Z"
+    },
+    {
+      "id": "act-6",
+      "projectId": "p-library",
+      "actorId": "s-ishaan",
+      "type": "invite_sent",
+      "message": "Ishaan invited Ananya Rao to Library Occupancy Predictor as UI/UX Designer",
+      "createdAt": "2026-10-17T08:10:00.000Z"
+    },
+    {
+      "id": "act-5",
+      "projectId": "p-alumni",
+      "actorId": "s-riya",
+      "type": "member_joined",
+      "message": "Riya Desai joined Alumni Networking Portal as Product Manager",
+      "createdAt": "2026-10-16T16:20:00.000Z"
+    },
+    {
+      "id": "act-4",
+      "projectId": "p-green",
+      "actorId": "s-neha",
+      "type": "team_locked",
+      "message": "Green Route Planner locked a complete four-person roster",
+      "createdAt": "2026-10-15T11:05:00.000Z"
+    },
+    {
+      "id": "act-3",
+      "projectId": "p-campus",
+      "actorId": "s-rohan",
+      "type": "member_joined",
+      "message": "Rohan Mehta joined Campus Event Companion as Backend Developer",
+      "createdAt": "2026-10-14T09:30:00.000Z"
+    },
+    {
+      "id": "act-2",
+      "projectId": "p-library",
+      "actorId": "s-priya",
+      "type": "member_joined",
+      "message": "Priya Menon joined Library Occupancy Predictor as Data Scientist",
+      "createdAt": "2026-10-13T14:15:00.000Z"
+    },
+    {
+      "id": "act-1",
+      "projectId": "p-campus",
+      "actorId": "s-ananya",
+      "type": "project_created",
+      "message": "Ananya opened Campus Event Companion for teammates",
+      "createdAt": "2026-09-28T10:05:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: teamforge
+    runtime: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "24"
+      - key: TEAMFORGE_DB
+        value: /var/data/teamforge.db
+    disk:
+      name: teamforge-data
+      mountPath: /var/data
+      sizeGB: 1
