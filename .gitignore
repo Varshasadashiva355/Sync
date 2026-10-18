@@ -3,6 +3,7 @@
 !.env.example
 node_modules/
 dist/
+public/
 data/*.db
 data/*.db-shm
 data/*.db-wal

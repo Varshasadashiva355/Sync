@@ -3,7 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const output = path.join(root, 'dist');
+const output = path.join(root, 'public');
 
 await rm(output, { recursive: true, force: true });
 await mkdir(path.join(output, 'data'), { recursive: true });
@@ -15,4 +15,4 @@ await Promise.all([
   cp(path.join(root, 'data', 'seed.json'), path.join(output, 'data', 'seed.json')),
 ]);
 
-console.log('Static preview built in dist/');
+console.log('Static preview built in public/');
